@@ -386,6 +386,8 @@ img{
 .svg-ul .item{
     height: 44px;
     width: 44px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .svg-ul .item:not(:last-child){
