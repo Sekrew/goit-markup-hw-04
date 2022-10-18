@@ -441,11 +441,12 @@ img{
 }
 
 .companies-div{
-
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 .clients-link{
-
+    display: block;
 }
 
 .clients-svg{
