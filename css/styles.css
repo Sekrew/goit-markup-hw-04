@@ -374,14 +374,17 @@ img{
     color: var(--p-color);
     font-weight: 400;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .svg-div{
+    max-width: 206px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .svg-ul{
     display: flex;
-    justify-content: center;
 }
 
 .svg-ul .item{
@@ -389,13 +392,27 @@ img{
     width: 44px;
 }
 
+.svg-ul .item:not(:last-child){
+    margin-right: 10px;
+}
+
 .svg-link{
     display: block;
     border-radius: 50%;
+    height: 44px;
+    width: 44px;
+}
+
+.svg-link:hover, .svg-link:focus{
+    background-color: var(--hoover-color);
 }
 
 .svg-icon{
     fill: var(--sgv-icon-color);
+}
+
+.svg-icon:hover, .svg-icon:focus{
+
 }
 
 .clients-sec{
