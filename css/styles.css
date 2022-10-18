@@ -377,14 +377,10 @@ img{
     margin-bottom: 16px;
 }
 
-.svg-div{
-    max-width: 206px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .svg-ul{
     display: flex;
+    justify-content: center;
 }
 
 .svg-ul .item{
@@ -397,23 +393,23 @@ img{
 }
 
 .svg-link{
-    display: block;
+    display: flex;
     border-radius: 50%;
     height: 44px;
     width: 44px;
+    align-items: center;
+    justify-content: center;
 }
 
 .svg-link:hover, .svg-link:focus{
     background-color: var(--hoover-color);
+    fill: var(--default-color);
 }
 
 .svg-icon{
     fill: var(--sgv-icon-color);
 }
 
-.svg-icon:hover, .svg-icon:focus{
-
-}
 
 .clients-sec{
 
@@ -441,7 +437,7 @@ img{
 }
 
 .companies-div{
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--sgv-icon-color);
     border-radius: 4px;
 }
 
